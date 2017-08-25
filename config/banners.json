@@ -21,14 +21,14 @@
     {
       "id": "4",
       "title": "Promotion Banner Four",
-      "visibleFrom":"2014-08-10T12:00:00+0900",
-      "visibleTo":"2014-08-10T12:00:00+0900"
+      "visibleFrom":"2017-08-28T12:00:00+0900",
+      "visibleTo":"2017-08-30T12:00:00+0900"
     },
     {
       "id": "5",
       "title": "Promotion Banner Six",
-      "visibleFrom":"2014-08-10T12:00:00+0900",
-      "visibleTo":"2014-08-10T12:00:00+0900"
+      "visibleFrom":"2017-08-29T12:00:00+0900",
+      "visibleTo":"2017-08-30T12:00:00+0900"
     }
   ]
 }

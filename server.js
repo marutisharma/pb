@@ -12,7 +12,7 @@ app.set('view engine', 'ejs')
 
 app.get('/', (req, res) => {
   var displayList;
-  display_decider(posts,req.connection.remoteAddress,function(posts){
+  display_decider(posts,'10.204.52.222',function(posts){
     displayList=posts;
   })
   res.render('home', { posts: displayList});
@@ -28,7 +28,7 @@ app.get('/post/:id', (req, res) => {
   })
 })
 
-app.listen(8080)
+app.listen(8080);
 
 require('./helpers/notify')();
 
