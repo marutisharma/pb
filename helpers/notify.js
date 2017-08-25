@@ -1,10 +1,10 @@
 'use strict';
 
 const watch = require('node-watch'),
-      path = require('path'),
-      fs = require('fs'),
-      cfgManager = require('node-config-manager'),
-      filesToBeWatched = cfgManager.getConfig('app').filesToBeWatched;
+path = require('path'),
+fs = require('fs'),
+cfgManager = require('node-config-manager'),
+filesToBeWatched = cfgManager.getConfig('app').filesToBeWatched;
 
 function startFileWatch() {
   //Observe files in location filesToBeWatched.files for any changes in file content

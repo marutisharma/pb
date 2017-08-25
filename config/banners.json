@@ -1,34 +1,34 @@
 {
-"list":[
-  {
-    "id": "1",
-    "title": "Promotion Banner One",
-    "visibleFrom":"2014-08-10T12:00:00+0900",
-    "visibleTo":"2014-08-10T12:00:00+0900"
-  },
-  {
-    "id": "2",
-    "title": "Promotion Banner Two",
-    "visibleFrom":"2014-08-10T12:00:00+0900",
-    "visibleTo":"2014-08-10T12:00:00+0900"
-  },
-  {
-    "id": "3",
-    "title": "Promotion Banner Three",
-    "visibleFrom":"2014-08-10T12:00:00+0900",
-    "visibleTo":"2014-08-10T12:00:00+0900"
-  },
-  {
-    "id": "4",
-    "title": "Promotion Banner Four",
-    "visibleFrom":"2014-08-10T12:00:00+0900",
-    "visibleTo":"2014-08-10T12:00:00+0900"
-  },
-  {
-    "id": "5",
-    "title": "Promotion Banner Six",
-    "visibleFrom":"2014-08-10T12:00:00+0900",
-    "visibleTo":"2014-08-10T12:00:00+0900"
-  }
-]
+  "list":[
+    {
+      "id": "1",
+      "title": "Promotion Banner One",
+      "visibleFrom":"2014-08-10T12:00:00+0900",
+      "visibleTo":"2014-08-10T12:00:00+0900"
+    },
+    {
+      "id": "2",
+      "title": "Promotion Banner Two",
+      "visibleFrom":"2017-08-21T12:00:00+0900",
+      "visibleTo":"2017-08-29T12:00:00+0900"
+    },
+    {
+      "id": "3",
+      "title": "Promotion Banner Three",
+      "visibleFrom":"2014-08-10T12:00:00+0900",
+      "visibleTo":"2014-08-10T12:00:00+0900"
+    },
+    {
+      "id": "4",
+      "title": "Promotion Banner Four",
+      "visibleFrom":"2014-08-10T12:00:00+0900",
+      "visibleTo":"2014-08-10T12:00:00+0900"
+    },
+    {
+      "id": "5",
+      "title": "Promotion Banner Six",
+      "visibleFrom":"2014-08-10T12:00:00+0900",
+      "visibleTo":"2014-08-10T12:00:00+0900"
+    }
+  ]
 }
