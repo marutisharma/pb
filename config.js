@@ -6,10 +6,12 @@ const cfgManager = require('node-config-manager');
 (function initializeConfig() {
   //Initializing config manager
   cfgManager.init({
-      configDir: './config',
-      env: process.env.NODE_ENV || 'development',
-      camelCase: true
-    }).addConfig('app');
-  })();
+    configDir: './config',
+    env: process.env.NODE_ENV || 'development',
+    camelCase: true
+  })
+  .addConfig('app')
+  .addConfig('server');
+})();
 
 module.exports = cfgManager;

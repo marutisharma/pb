@@ -3,32 +3,32 @@
     {
       "id": "1",
       "title": "Promotion Banner One",
-      "visibleFrom":"2014-08-10T12:00:00+0900",
-      "visibleTo":"2014-08-10T12:00:00+0900"
+      "visibleFrom":"2017-08-28T13:08:00+0900",
+      "visibleTo":"2017-08-28T14:00:00+0900"
     },
     {
       "id": "2",
       "title": "Promotion Banner Two",
-      "visibleFrom":"2017-08-21T12:00:00+0900",
-      "visibleTo":"2017-08-29T12:00:00+0900"
+      "visibleFrom":"2017-08-30T12:00:00+0900",
+      "visibleTo":"2017-08-31T13:15:00+0900"
     },
     {
       "id": "3",
       "title": "Promotion Banner Three",
-      "visibleFrom":"2014-08-10T12:00:00+0900",
-      "visibleTo":"2014-08-10T12:00:00+0900"
+      "visibleFrom":"2017-08-28T09:55:00+0900",
+      "visibleTo":"2017-08-30T12:00:00+0900"
     },
     {
       "id": "4",
-      "title": "Promotion Banner Four",
-      "visibleFrom":"2017-08-28T12:00:00+0900",
+      "title": "Promotion Banner Fours",
+      "visibleFrom":"2017-08-28T09:55:00+0900",
       "visibleTo":"2017-08-30T12:00:00+0900"
     },
     {
       "id": "5",
-      "title": "Promotion Banner Six",
-      "visibleFrom":"2017-08-29T12:00:00+0900",
-      "visibleTo":"2017-08-30T12:00:00+0900"
+      "title": "Promotion Banner Five",
+      "visibleFrom":"2017-08-29T11:07:00+0900",
+      "visibleTo":"2017-08-29T11:38:00+0900"
     }
   ]
 }
