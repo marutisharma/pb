@@ -20,7 +20,7 @@ npm
 #### Install
 ```
 $ git clone https://github.com/m-rec/689f22fcd07c22567e911ef3ec9b8ffe16dde781.git
-$ cd m-rec/689f22fcd07c22567e911ef3ec9b8ffe16dde781
+$ cd 689f22fcd07c22567e911ef3ec9b8ffe16dde781
 $ npm install
 ```
 
@@ -45,6 +45,10 @@ node server.js
 ```
 SYSTEM_IP:3000
 ```
+
+#### Verification
+- Try to update data into */config/banners.json* and reload the URL to see changes.
+- For IP verification please generate a request from the ip listed in the */config/ip.json* or modify file if you require.
 
 # Logic
 
