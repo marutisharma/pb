@@ -1,22 +1,23 @@
 'use strict';
-var IP = require('./../config/ip.json').list;
-var BANNERS = require('./../config/banners').list;
+// global.IP = require('./../config/ip.json').list;
+// global.BANNERS = require('./../config/banners').list;
+const global = require("./../config/global.js");
 
 module.exports = function fileWatcher(reqIp, callback) {
   var displayBannerList=[],visibleFrom,visibleTo,currentTime;
-  if(BANNERS==null){
-    BANNERS = require('./../config/banners').list;
+  if(global.BANNERS==null){
+    global.BANNERS = require('./../config/banners').list;
   }
-  if(IP==null){
-    IP=require('./../config/ip').list;
+  if(global.IP==null){
+    global.IP=require('./../config/ip').list;
   }
 
-  BANNERS.forEach(function(element){
+  global.BANNERS.forEach(function(element){
     visibleFrom = Date.parse(element.visibleFrom);
-    visibleTo =  Date.parse(element.visibleTo);
+    visibleTo =   Date.parse(element.visibleTo);
     currentTime = Date.now();
 
-    if(IP.indexOf(reqIp) > -1){
+    if(global.IP.indexOf(reqIp) > -1){
       if(currentTime < visibleTo){
         displayBannerList.push(element);
       }
@@ -28,7 +29,5 @@ module.exports = function fileWatcher(reqIp, callback) {
     }
 
   });
-  IP=null;
-  BANNERS=null;
   callback(displayBannerList);
 };

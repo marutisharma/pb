@@ -5,15 +5,16 @@ path = require('path'),
 fs = require('fs'),
 cfgManager = require('node-config-manager'),
 filesToBeWatched = cfgManager.getConfig('app').filesToBeWatched,
-settings = require("./../config/settings.js");
+global = require("./../config/global.js");
 
 
 function startFileWatch() {
   //Observe files in location filesToBeWatched.files for any changes in file content
   watch(filesToBeWatched.location, function (file) {
    filesToBeWatched.files.forEach(function(element){
-     delete require.cache[settings.CONFIG_DIR +'/'+ element];
-
+     delete require.cache[global.CONFIG_DIR +'/'+ element];
+     global.BANNERS=null;
+     global.IP=null;
    })
   });
 }
