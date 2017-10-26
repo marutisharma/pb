@@ -52,7 +52,7 @@ SYSTEM_IP:3000
 
 # Logic
 
-![Logic](https://github.com/m-rec/689f22fcd07c22567e911ef3ec9b8ffe16dde781/blob/develop/doc/banner_logic.png)
+![Logic](https://github.com/marutisharma/pb/blob/develop/doc/banner_logic.png)
 
 
 
