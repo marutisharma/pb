@@ -1,0 +1,17 @@
+{
+  "name": "m-rec",
+  "version": "1.0.0",
+  "description": "Scheduled promotion banner display",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Maruti Nandan Sharma",
+  "license": "Open Source",
+  "dependencies": {
+    "ejs": "^2.5.6",
+    "express": "^4.15.2",
+    "node-watch": "^0.3.5",
+    "node-config-manager": "^1.0.3"
+  }
+}

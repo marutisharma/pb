@@ -1,0 +1,6 @@
+{
+  "filesToBeWatched": {
+    "location": "./config",
+    "files": ["banners.json","ip.json"]
+  }
+}

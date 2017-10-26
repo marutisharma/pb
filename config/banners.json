@@ -1,0 +1,34 @@
+{
+  "list":[
+    {
+      "id": "1",
+      "title": "Promotion Banner One",
+      "visibleFrom":"2017-08-28T13:08:00+0900",
+      "visibleTo":"2017-08-28T14:00:00+0900"
+    },
+    {
+      "id": "2",
+      "title": "Promotion Banner Two",
+      "visibleFrom":"2017-08-30T12:00:00+0900",
+      "visibleTo":"2017-08-31T13:15:00+0900"
+    },
+    {
+      "id": "3",
+      "title": "Promotion Banner Three",
+      "visibleFrom":"2017-08-28T09:55:00+0900",
+      "visibleTo":"2017-08-30T23:00:00+0900"
+    },
+    {
+      "id": "4",
+      "title": "Promotion Banner Fours",
+      "visibleFrom":"2017-08-28T09:55:00+0900",
+      "visibleTo":"2017-08-30T12:00:00+0900"
+    },
+    {
+      "id": "5",
+      "title": "Promotion Banner Five",
+      "visibleFrom":"2017-08-29T11:07:00+0900",
+      "visibleTo":"2017-08-29T11:38:00+0900"
+    }
+  ]
+}
